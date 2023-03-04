@@ -1,6 +1,6 @@
 require 'rainbows'
 
-module Rack
+module Rackup
   module Handler
     class Rainbows
       def self.run(app, **options)
@@ -15,6 +15,6 @@ module Rack
       end
     end
 
-    register :rainbows, ::Rack::Handler::Rainbows
+    register :rainbows, ::Rackup::Handler::Rainbows
   end
 end
