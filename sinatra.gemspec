@@ -2,7 +2,7 @@
 
 version = File.read(File.expand_path('VERSION', __dir__)).strip
 
-Gem::Specification.new 'sinatra', version do |s|
+Gem::Specification.new 'sinatra-rack-3-commonlit', version do |s|
   s.description       = 'Sinatra is a DSL for quickly creating web applications in Ruby with minimal effort.'
   s.summary           = 'Classy web-development dressed in a DSL'
   s.authors           = ['Blake Mizerany', 'Ryan Tomayko', 'Simon Rozet', 'Konstantin Haase']
